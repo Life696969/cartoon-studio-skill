@@ -1,0 +1,16 @@
+{
+  "name": "cartoon-studio",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Cartoon explainer videos with reusable talking characters, made from Claude Code.",
+  "scripts": {
+    "sheet": "node tools/sheet.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@resvg/resvg-js": "^2.6.2"
+  }
+}

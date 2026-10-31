@@ -1,0 +1,32 @@
+{
+  "schema": "cartoon-studio/scene@1",
+  "title": "Virtual try-on demo",
+  "format": "vertical",
+  "fps": 60,
+  "background": { "name": "studio", "options": { "color": "#ffe3ec", "accent": "#ff8fab" } },
+  "cast": [
+    { "id": "tara", "character": "../../characters/tara.json", "x": 0.32, "start": { "gesture": "holdPhone" } },
+    { "id": "meera", "character": "../../characters/meera.json", "x": 0.74 }
+  ],
+  "beats": [
+    { "line": "01-tara", "at": 0.6, "hold": true,
+      "speaker": { "gesture": "holdPhone", "expression": "worried" },
+      "listeners": { "meera": { "expression": "thinking" } } },
+    { "line": "02-meera", "gap": 0.35,
+      "speaker": { "gesture": "showPhone", "expression": "cheerful" },
+      "listeners": { "tara": { "gesture": "idle", "expression": "surprised" } } },
+    { "line": "03-tara", "gap": 1.7, "hold": true,
+      "speaker": { "gesture": "pose", "expression": "cheerful" },
+      "listeners": { "meera": { "gesture": "clasp", "expression": "happy" } } },
+    { "line": "04-meera", "gap": 1.4,
+      "speaker": { "gesture": "thumbsUp", "expression": "cheerful" } }
+  ],
+  "moments": [
+    { "who": "tara", "after": "02-meera", "plus": 0.25, "action": "twirl", "dur": 1.2, "expression": "happy",
+      "outfit": { "top": "gown", "color": "#c1121f", "accent": "#ffd6a5", "pattern": "floral", "shoes": "#c1121f" } },
+    { "who": "tara", "after": "03-tara", "plus": 0.3, "action": "swap", "dur": 0.9, "gesture": "idle", "expression": "surprised",
+      "outfit": { "top": "dress", "color": "#3a86ff", "accent": "#ffffff", "pattern": "dots", "shoes": "#ffffff" } },
+    { "who": "tara", "after": "04-meera", "plus": 0.1, "gesture": "handOnHip", "expression": "happy" }
+  ],
+  "tail": 1.6
+}

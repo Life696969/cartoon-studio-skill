@@ -1,0 +1,15 @@
+{
+  "schema": "cartoon-studio/character@1",
+  "id": "rohan",
+  "name": "Rohan",
+  "role": "Customer with a problem",
+  "look": {
+    "skin": "tan",
+    "head": "round",
+    "hair": { "style": "messy", "color": "black" },
+    "eyes": { "style": "classic" },
+    "glasses": "round",
+    "nose": "button",
+    "outfit": { "top": "tshirt", "color": "#4c9be8", "accent": "#ffd166", "pants": "#3d405b", "shoes": "#e76f51" }
+  }
+}

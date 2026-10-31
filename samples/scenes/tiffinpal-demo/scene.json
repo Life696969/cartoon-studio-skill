@@ -1,0 +1,24 @@
+{
+  "schema": "cartoon-studio/scene@1",
+  "title": "TiffinPal demo",
+  "format": "vertical",
+  "fps": 30,
+  "background": { "name": "office", "options": { "board": "TiffinPal" } },
+  "cast": [
+    { "id": "rohan", "character": "../../characters/rohan.json", "x": 0.27 },
+    { "id": "meera", "character": "../../characters/meera.json", "x": 0.73 }
+  ],
+  "beats": [
+    { "line": "01-rohan", "at": 0.6,
+      "speaker": { "gesture": "explain", "expression": "worried" },
+      "listeners": { "meera": { "gesture": "clasp", "expression": "thinking" } },
+      "caption": "My lunch is always cold by 1 pm." },
+    { "line": "02-meera", "gap": 0.35,
+      "speaker": { "gesture": "present", "expression": "cheerful" },
+      "listeners": { "rohan": { "expression": "surprised" } } },
+    { "line": "03-rohan", "gap": 0.3, "hold": true,
+      "speaker": { "gesture": "thumbsUp", "expression": "cheerful" },
+      "listeners": { "meera": { "gesture": "idle", "expression": "laughing" } } }
+  ],
+  "tail": 1.4
+}

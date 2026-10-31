@@ -1,0 +1,14 @@
+{
+  "schema": "cartoon-studio/character@1",
+  "id": "tara",
+  "name": "Tara",
+  "role": "Test dummy for dresses and try-on",
+  "look": {
+    "skin": "wheat",
+    "head": "oval",
+    "hair": { "style": "long", "color": "darkbrown" },
+    "eyes": { "style": "iris", "iris": "#4a2c1a" },
+    "nose": "button",
+    "outfit": { "top": "sundress", "color": "#f2c14e", "accent": "#e76f51", "pattern": "plain", "shoes": "#e76f51" }
+  }
+}

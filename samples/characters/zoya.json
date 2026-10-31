@@ -1,0 +1,14 @@
+{
+  "schema": "cartoon-studio/character@1",
+  "id": "zoya",
+  "name": "Zoya",
+  "role": "Co-founder, builds the app",
+  "look": {
+    "skin": "brown",
+    "head": "oval",
+    "hair": { "style": "ponytail", "color": "darkbrown" },
+    "eyes": { "style": "iris", "iris": "#4a2c1a" },
+    "nose": "button",
+    "outfit": { "top": "kurta", "color": "#2a9d8f", "accent": "#e9c46a", "pants": "#f1e4d0", "shoes": "#7a4a2a" }
+  }
+}

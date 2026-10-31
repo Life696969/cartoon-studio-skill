@@ -1,0 +1,15 @@
+{
+  "schema": "cartoon-studio/character@1",
+  "id": "kapoor",
+  "name": "Mr Kapoor",
+  "role": "Investor",
+  "look": {
+    "skin": "light",
+    "head": "square",
+    "hair": { "style": "balding", "color": "grey" },
+    "facialHair": "moustache",
+    "eyes": { "style": "classic" },
+    "nose": "line",
+    "outfit": { "top": "blazer", "color": "#2a3d66", "accent": "#ffffff", "pants": "#2a3d66", "shoes": "#3b2a22" }
+  }
+}

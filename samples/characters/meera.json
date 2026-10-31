@@ -1,0 +1,14 @@
+{
+  "schema": "cartoon-studio/character@1",
+  "id": "meera",
+  "name": "Meera",
+  "role": "Founder of the sample startup",
+  "look": {
+    "skin": "wheat",
+    "head": "soft",
+    "hair": { "style": "curly", "color": "black" },
+    "eyes": { "style": "classic" },
+    "nose": "button",
+    "outfit": { "top": "hoodie", "color": "#f4a261", "accent": "#ffffff", "pants": "#2f3e5c", "shoes": "#f4f1ea" }
+  }
+}

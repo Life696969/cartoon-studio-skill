@@ -1,0 +1,7 @@
+node_modules/
+out/
+*.log
+.content-notes/
+build-in-public/
+.build-in-public*
+local.config.json
